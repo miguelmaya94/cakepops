@@ -1,74 +1,109 @@
-
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/mystylesorder.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/mystylesorder.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 
 </head>
 <body>
 
-<div class="topnav" id="myTopnav">
-  <a href="index.html" class="active">Kathy's Cakes</a>
-  <a href="order.html">Order Now</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-  <i class="fa fa-bars"></i>
-  </a>
-</div>
+    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-dark ">
+        <a class="navbar-brand" href="#">Kathy's Cakes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="order.html">Order Now</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
 
-<div class="contain">
-<h1>Our Menu</h1>
-  <aside><h3>Extra topping price Ea: Gold flakes: 1.75$, Glitter: 1$, Drizzle: 25 cents, Marble: 25 cents, Sprinkles: 25 cents, letters: 50 cents /letter </h3>
-<h2>Choice of Milk, White Chocolate, or Marble: Includes one color and one topping. </h2>
-</aside>
-<div class="top"></div><br>
-<p><a href="bread.html">Order Now</a>
+            </ul>
+        </div>
+    </nav>
 
-<br>Price: 9.99$
-<br>Size: 3</p>
+    <div class="contain">
+        <h1>Our Menu</h1>
+        <aside>
+            <h3>Extra topping price Ea: Gold flakes: 1.75$, Glitter: 1$, Drizzle: 25 cents, Marble: 25 cents, Sprinkles: 25 cents, letters: 50 cents /letter </h3>
+            <h2>Choice of Milk, White Chocolate, or Marble: Includes one color and one topping. </h2>
+        </aside>
+        <div class="top"></div><br>
+        <p>
+            <a href="bread.html">Order Now</a>
 
-<aside>
-<h2>Choice of Milk, White Chocolate, or Marble: Includes one color and one topping.</h2>
-</aside>
-<figure>
-<div class="toptwo"></div><br>
-<figcaption>Fig.1 Options of milk, white or marble
-</figure>
-<p><a href="kids.html">Order Now</a>
-  <br>Price: 20.00$
-  <br>Size: 6</p>
+            <br>Price: 9.99$
+            <br>Size: 3
+        </p>
 
-<aside>
-<h2>Choice of Milk, White Chocolate, or Marble: Includes one color and one topping.</h2>
-</aside>
-<div class="topthree"></div><br>
-<p><a href="adult.html">Order Now</a>
-  <br>Price: 35.00$
-  <br>Size: 12</p>
+        <aside>
+            <h2>Choice of Milk, White Chocolate, or Marble: Includes one color and one topping.</h2>
+        </aside>
+
+        <div class="toptwo"></div><br>
+        <figure>
+            Fig.1 Options of milk, white or marble
+        </figure>
+        <p>
+            <a href="kids.html">Order Now</a>
+            <br>Price: 20.00$
+            <br>Size: 6
+        </p>
+
+        <aside>
+            <h2>Choice of Milk, White Chocolate, or Marble: Includes one color and one topping.</h2>
+        </aside>
+        <div class="topthree"></div><br>
+        <p>
+            <a href="adult.html">Order Now</a>
+            <br>Price: 35.00$
+            <br>Size: 12
+        </p>
 
 
 
 
-</div>
+    </div>
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
+
+    <footer>
+        <h4>Kathy's Cakes inc. /Maya Multimedia LLC</h4><br>
+
+    </footer>
 </body>
-<footer>
-  <h4>Kathy's Cakes inc. /Maya Multimedia LLC</h4><br>
-
-</footer>
 </html>

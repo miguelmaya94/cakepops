@@ -7,19 +7,18 @@ body {
 }
 
 
-.topimg{
-  background-image: url('../images/gingerbread-1560711_1920.jpg');
-  float: left;
-  width: 100%;
-  height: 300px;
-  background-repeat: no-repeat;
-  color: white;
-  font-size: 4.5rem;
-  text-align: left;
-
-  background-size: cover;
-  margin-top: 50px;
-
+.topimg {
+    background-image: url('../images/gingerbread-1560711_1920.jpg');
+    float: left;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 4.5rem;
+    text-align: left;
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .topimg p{
 
