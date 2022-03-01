@@ -1,19 +1,20 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <title>Kathy's Cake's'</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+   
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/mystylesorder.css">
+
+    <link rel="stylesheet" href="css/mystyles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-
     <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-dark ">
         <a class="navbar-brand" href="#">Kathy's Cakes</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,54 +36,45 @@
             </ul>
         </div>
     </nav>
-    <div class="contain">
-        <h1>Our Menu</h1>
-        <h2>Choice of Milk, White Chocolate, or Marble: Includes one color and one topping.</h2>
-        <figure>
-            <div class="topthree"></div><br>
-            <figcaption>Fig.1 Options of milk, white or marble
-        </figure>
-        <p><br>Price: 35$</p>
-        <div class="contain">
-            <p>Please fill out the form to place an order</p>
-            <form id="test_form" class="contact-form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
-                <div class="first-name">
-                    <label for="firstname" class="label_input_wrap">First Name:</label>
-                    <input type="text" name="req_firstname" id="firstname" placeholder="ex. John" />
-                </div>
-                <div class="last-name">
-                    <label for="lastname" class="label_input_wrap">Flavor:</label>
-                    <input type="text" name="req_lastname" id="lastname" placeholder="Last name" />
-                </div>
-                <div class="email">
-                    <label for="email" class="label_input_wrap">Amount:</label>
-                    <input type="number" name="req_email" id="email"
-                           placeholder="Amount" />
-                </div>
-                <div class="telephone">
-                    <label for="telephone" class="label_input_wrap">Telephone:</label>
-                    <input type="tel" name="telephone" id="telephone" placeholder="555-555-555" />
-                </div>
-                <div class="comments">
-                    <label for="comments" class="label_input_wrap">Comments or Place Order: </label>
-                    <textarea name="comments" id="comments" cols="55" rows="5" placeholder="Your Comments Goes Here"></textarea>
-                </div>
-                <div class="submit">
-                    <input type="submit" value="Send me a message!" />
-                </div><br><br><br><br><br><br><br><br>
-            </form>
+
+
+
+
+
+
+
+
+    
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Welcome! Place order Here.</h2>
+                <div class="orderlink"><a href="order.html" style="font-size:3rem; color:red; text-decoration: none;">Order Now</a></div>
+            </div>
+            <div class="col">
+                <h2>Follow Me on Instagram</h2>
+                <p><div id="instagram"><a href="https://www.instagram.com/kathys_cakesicles/" target="blank" class="fa fa-instagram"></a></div></p>
+            </div>
         </div>
     </div>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+
+                <img class="my-3 img-fluid mx-auto d-block" src="/images/gingerbread-1560711_1920.jpg" alt="headerimg">
+                <h1>
+                    Kathy's Cakes is proud to be a small business. In 2020, an 18 year old girl who fell in love with baking began making the strangest Cake Popsicles. Round ones! Circles ones! Ones with chocolate and vanilla and sprinkles! On a stick!. Nice...
+                </h1>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br>
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -91,7 +83,7 @@
 
 
     <footer>
-        <h4>Kathy's Cakes inc. /Maya Multimedia LLC.</h4><br>
+        <h4>Kathy's Cakes inc. /Maya Multimedia LLC</h4><br>
     </footer>
 </body>
 </html>

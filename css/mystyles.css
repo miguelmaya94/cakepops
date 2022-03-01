@@ -57,6 +57,35 @@ color: white;
 
 }
 
+.fa {
+    padding: 20px;
+    font-size: 10px;
+    width: 200px;
+    text-decoration: none;
+    margin: 5px 2px;
+}
 
+    .fa:hover {
+        opacity: 0.7;
+    }
 
+.fa-instagram {
+    background: #125688;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.form-group, h2, p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+}
+
+.wrapper {
+    margin-bottom: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
 
