@@ -17,7 +17,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-info ">
+    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-warning ">
         <a class="navbar-brand" href="#">Kathy's Cakes</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -57,37 +57,42 @@
     </div>
 
 
-
     <div class="slideshow-container">
 
         <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
             <img src="images/onekate.jpg" style="width:100%">
-            <div class="text">Caption Text</div>
+            <div class="text">
+                <h4>
+                    Kathy's Cakes is proud to be a small business. In 2020, an 18-year-old girl who fell in love with baking began making the strangest Cake Popsicles. Round ones! Circles ones! Ones with chocolate and vanilla and sprinkles! On a stick!. Nice...
+                </h4>
+            </div>
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext">2 / 3</div>
             <img src="images/twokate.jpg" style="width:100%">
-            <div class="text">Caption Two</div>
+            <div class="text"><h4>
+    Kathy's Cakes is proud to be a small business. In 2020, an 18-year-old girl who fell in love with baking began making the strangest Cake Popsicles. Round ones! Circles ones! Ones with chocolate and vanilla and sprinkles! On a stick!. Nice...
+</h4>
+</div>
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext">3 / 3</div>
             <img src="images/threekate.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
+            <div class="text"><h4>
+    Kathy's Cakes is proud to be a small business. In 2020, an 18-year-old girl who fell in love with baking began making the strangest Cake Popsicles. Round ones! Circles ones! Ones with chocolate and vanilla and sprinkles! On a stick!. Nice...
+</h4></div>
         </div>
-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
     </div>
     <br>
 
     <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
     </div>
 
     <script>
@@ -108,7 +113,7 @@
             }
             slides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " active";
-            setTimeout(showSlides, 4000); // Change image every 2 seconds
+            setTimeout(showSlides, 6000); // Change image every 2 seconds
         }
     </script>
 
@@ -120,12 +125,7 @@
 
 
 
-    <h3>
-        Kathy's Cakes is proud to be a small business. In 2020, an 18-year-old girl who fell in love with baking began making the strangest Cake Popsicles. Round ones! Circles ones! Ones with chocolate and vanilla and sprinkles! On a stick!. Nice...
-    </h3>
-    </div>
-    </div>
-    </div>
+
 
     <br><br><br><br><br>
 
