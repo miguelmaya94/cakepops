@@ -112,6 +112,8 @@ footer {
 <p>Thanks for your interest. We will be in contact shortly</p>
 </div>
 </body>
-<footer>
-  <h4>Kathy's Cakes inc. /Maya Multimedia LLC</h4><br>
-</footer>
+
+    <footer>
+        <br>
+        <h4>Kathy's Cakes Inc <br>Powered by Maya Multimedia LLC</h4><br>
+    </footer>

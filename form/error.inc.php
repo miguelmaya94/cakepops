@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="css/mystyle.css">
 
 
-    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-info ">
+    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-info  ">
         <a class="navbar-brand" href="#">Kathy's Cakes</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -15,12 +15,10 @@
                     <a class="nav-link" href="order.html">Order Now</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Pricing</a>
+                    <a class="nav-link" href="story.html">About Us</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-              
+
+
             </ul>
         </div>
     </nav>
