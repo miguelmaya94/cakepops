@@ -1,3 +1,4 @@
+
 <!-- HTML top code goes here -->
 <?
 // From processing takes place here. message displayed here too
@@ -14,3 +15,4 @@ $form->processForm(
 );
 ?>
 <!-- HTML bottom code goes here -->
+<p><strong><a href="adult.html" onClick="history.go(-1)">Back to form</a></strong></p>
