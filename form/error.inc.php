@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 
-    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-warning ">
+    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-dark ">
         <a class="navbar-brand" href="#">Kathy's Cakes</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

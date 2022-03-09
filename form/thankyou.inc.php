@@ -97,7 +97,7 @@ footer {
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 
 <body>
- <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-warning  ">
+ <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-dark  ">
         <a class="navbar-brand" href="#">Kathy's Cakes</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -121,7 +121,7 @@ footer {
 
   <div class="contain">
 <h1>Thank you for your order. </h1>
-<img src="images/katefour.jpg" alt="pay" width="500" height="600">
+<img src="images/fourkate.jpg" alt="pay" width="400" height="500">
 <p>Thanks for your interest. We will be in contact shortly</p>
 </div>
 </body>

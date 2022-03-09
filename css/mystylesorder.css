@@ -124,11 +124,11 @@ p a.active {
 }
 
 footer {
-  text-align: center;
-  padding: 3px;
-  background-color: skyblue;
-  color: white;
-margin-top: 50px;
+    text-align: center;
+    padding: 3px;
+    background-color: #BDB76B;
+    color: white;
+    margin-top: 50px;
     bottom: 0px;
 }
 
